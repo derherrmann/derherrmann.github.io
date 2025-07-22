@@ -21,18 +21,37 @@
                 0 0 20px #a855f7,
                 0 0 30px #a855f7;
             line-height: 1.2;
-            font-size: 0.6rem;
+            font-size: 0.45rem;
+            /* Basis für sehr kleine Bildschirme (z. B. iPhone SE) */
+            max-width: 100%;
+            /* Verhindert Überlauf */
+        }
+
+        @media (min-width: 400px) {
+            .ascii-art {
+                font-size: 0.5rem;
+                /* Etwas größer für typische iPhones (z. B. iPhone 14) */
+            }
         }
 
         @media (min-width: 640px) {
             .ascii-art {
-                font-size: 0.7rem;
+                font-size: 0.6rem;
+                /* Für größere mobile Geräte oder Tablets */
             }
         }
 
         @media (min-width: 768px) {
             .ascii-art {
-                font-size: 1.05rem;
+                font-size: 0.8rem;
+                /* Reduziert von 1.3rem für ausgewogeneren Look */
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .ascii-art {
+                font-size: 1rem;
+                /* Für Desktop-Bildschirme */
             }
         }
 
@@ -61,7 +80,8 @@
             background-color: #a855f7;
             color: #ffffff;
             border-radius: 0.5rem;
-            padding: 0.5rem 1rem;
+            padding: 0.75rem 1.5rem;
+            /* Etwas mehr Padding für bessere Mobile-Nutzung */
             transition: background-color 0.3s ease;
         }
 
@@ -92,7 +112,7 @@
                 Oy mate<br>
                 I am derherrmann (theherrmann), a computer science student, tinkerer, nerd and tech enthusiast from
                 Germany.<br>
-                I dont enjoy Web Development, so what you see here is just a simple landing page made by a GPT.<br>
+                I Rendered by a GPT.<br>
                 My main interests are data science(ML etc.), algorithms and backend development.<br>
                 Basically I could code in any language except Assembly, but I am used to C, C++ and Python.<br>
             </p>
