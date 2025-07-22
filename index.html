@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" type="image/png" href="/favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -12,92 +11,11 @@
     <meta name="author" content="derherrmann">
     <meta name="color-scheme" content="dark">
     <title>derherrmann – Data Science & Backend Dev Portfolio</title>
-
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .ascii-art {
-            font-family: 'Courier New', Courier, monospace;
-            white-space: pre;
-            color: #7c3aed;
-            text-shadow:
-                0 0 8px #6600cc,
-                0 0 8px #6600cc,
-                0 0 8px #7c3aed;
-            line-height: 1.15;
-            font-size: 0.2rem; 
-            /* Basis für sehr kleine Bildschirme (z. B. iPhone SE) */
-            max-width: 100%;
-            /* Verhindert Überlauf */
-        }
-
-        @media (min-width: 400px) {
-            .ascii-art {
-                font-size: 0.3rem;
-                /* Etwas größer für typische iPhones (z. B. iPhone 14) */
-            }
-        }
-
-        @media (min-width: 640px) {
-            .ascii-art {
-                font-size: 0.6rem;
-                /* Für größere mobile Geräte oder Tablets */
-            }
-        }
-
-        @media (min-width: 768px) {
-            .ascii-art {
-                font-size: 0.8rem;
-                /* Reduziert von 1.3rem für ausgewogeneren Look */
-            }
-        }
-
-        @media (min-width: 1024px) {
-            .ascii-art {
-                font-size: 1rem;
-                /* Für Desktop-Bildschirme */
-            }
-        }
-
-        .ascii-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            overflow-x: auto;
-            padding: 1rem 0;
-        }
-
-        .card {
-            background-color: #1f2937;
-            border-radius: 1rem;
-            box-shadow: 0 10px 15px -3px rgba(168, 85, 247, 0.2), 0 4px 6px -2px rgba(168, 85, 247, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 25px -5px rgba(168, 85, 247, 0.3), 0 8px 10px -3px rgba(168, 85, 247, 0.2);
-        }
-
-        .btn {
-            background-color: #7c3aed;
-            color: #ffffff;
-            border-radius: 0.5rem;
-            padding: 1rem 2rem;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn:hover {
-            background-color: #9333ea;
-            transform: scale(1.02);
-        }
-
-        .btn:focus {
-            background-color: #9333ea;
-            outline: 2px solid #ffffff;
-            outline-offset: 2px;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico">
 </head>
 
 <body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col items-center justify-center p-4">
@@ -121,7 +39,8 @@
                 Oy mate!<br>
                 I'm derherrmann (theherrmann), a computer science student, tinkerer, nerd, and tech enthusiast from
                 Germany.<br>
-                I don’t particularly enjoy web development, so this is just a basic landing page created with a bit of help from an LLM.<br>
+                I don’t particularly enjoy web development, so this is just a basic landing page created with a bit of
+                help from an LLM.<br>
                 My main interests are data science (ML, etc.), algorithms, and backend development.<br>
                 Basically, I can code in almost any language except Assembly — but I’m most comfortable with C, C++, and
                 Python.<br>
