@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" type="image/png" href="/favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -9,7 +10,9 @@
     <meta name="keywords"
         content="derherrmann, data science, backend development, programming, portfolio, computer science, Germany">
     <meta name="author" content="derherrmann">
-    <title>derherrmann</title>
+    <meta name="color-scheme" content="dark">
+    <title>derherrmann – Data Science & Backend Dev Portfolio</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .ascii-art {
@@ -77,16 +80,22 @@
         }
 
         .btn {
-            background-color: #6600cc;
+            background-color: #7c3aed;
             color: #ffffff;
             border-radius: 0.5rem;
-            padding: 0.75rem 1.5rem;
-            /* Etwas mehr Padding für bessere Mobile-Nutzung */
+            padding: 1rem 2rem;
             transition: background-color 0.3s ease;
         }
 
         .btn:hover {
             background-color: #9333ea;
+            transform: scale(1.02);
+        }
+
+        .btn:focus {
+            background-color: #9333ea;
+            outline: 2px solid #ffffff;
+            outline-offset: 2px;
         }
     </style>
 </head>
@@ -105,15 +114,14 @@
         </div>
     </header>
 
-    <main class="w-full max-w-4xl space-y-8" role="main">
+    <main class="w-full max-w-4xl px-4 space-y-8" role="main">
         <section class="card p-6" aria-labelledby="about-heading">
             <h1 id="about-heading" class="text-2xl md:text-3xl font-bold text-center mb-4">about/</h1>
-            <p class="text-gray-300 text-center">
+            <p class="text-white text-center leading-relaxed">
                 Oy mate!<br>
                 I'm derherrmann (theherrmann), a computer science student, tinkerer, nerd, and tech enthusiast from
                 Germany.<br>
-                I don’t particularly enjoy web development, so this is just a basic landing page created with a bit of
-                help from an LLM.<br>
+                I don’t particularly enjoy web development, so this is just a basic landing page created with a bit of help from an LLM.<br>
                 My main interests are data science (ML, etc.), algorithms, and backend development.<br>
                 Basically, I can code in almost any language except Assembly — but I’m most comfortable with C, C++, and
                 Python.<br>
