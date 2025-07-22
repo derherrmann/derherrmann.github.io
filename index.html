@@ -1,69 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio of derherrmann, a computer science student specializing in data science, algorithms, and backend development.">
-  <meta name="keywords" content="derherrmann, data science, backend development, programming, portfolio, computer science, Germany">
-  <meta name="author" content="derherrmann">
-  <title>derherrmann</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .ascii-art {
-      font-family: 'Courier New', Courier, monospace;
-      white-space: pre;
-      color: #a855f7; 
-      text-shadow: 
-        0 0 10px #a855f7, 
-        0 0 20px #a855f7, 
-        0 0 30px #a855f7;
-      line-height: 1.2;
-      font-size: 0.6rem;
-    }
-    @media (min-width: 640px) {
-      .ascii-art {
-        font-size: 0.7rem;
-      }
-    }
-    @media (min-width: 768px) {
-      .ascii-art {
-        font-size: 1.05rem;
-      }
-    }
-    .ascii-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      overflow-x: auto; 
-      padding: 2rem 0; 
-    }
-    .card {
-      background-color: #1f2937; 
-      border-radius: 1rem;
-      box-shadow: 0 10px 15px -3px rgba(168, 85, 247, 0.2), 0 4px 6px -2px rgba(168, 85, 247, 0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 15px 25px -5px rgba(168, 85, 247, 0.3), 0 8px 10px -3px rgba(168, 85, 247, 0.2);
-    }
-    .btn {
-      background-color: #a855f7;
-      color: #ffffff;
-      border-radius: 0.5rem;
-      padding: 0.5rem 1rem;
-      transition: background-color 0.3s ease;
-    }
-    .btn:hover {
-      background-color: #9333ea;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of derherrmann, a computer science student specializing in data science, algorithms, and backend development.">
+    <meta name="keywords"
+        content="derherrmann, data science, backend development, programming, portfolio, computer science, Germany">
+    <meta name="author" content="derherrmann">
+    <title>derherrmann</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .ascii-art {
+            font-family: 'Courier New', Courier, monospace;
+            white-space: pre;
+            color: #a855f7;
+            text-shadow:
+                0 0 10px #a855f7,
+                0 0 20px #a855f7,
+                0 0 30px #a855f7;
+            line-height: 1.2;
+            font-size: 0.6rem;
+        }
+
+        @media (min-width: 640px) {
+            .ascii-art {
+                font-size: 0.7rem;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .ascii-art {
+                font-size: 1.05rem;
+            }
+        }
+
+        .ascii-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            overflow-x: auto;
+            padding: 2rem 0;
+        }
+
+        .card {
+            background-color: #1f2937;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(168, 85, 247, 0.2), 0 4px 6px -2px rgba(168, 85, 247, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 25px -5px rgba(168, 85, 247, 0.3), 0 8px 10px -3px rgba(168, 85, 247, 0.2);
+        }
+
+        .btn {
+            background-color: #a855f7;
+            color: #ffffff;
+            border-radius: 0.5rem;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #9333ea;
+        }
+    </style>
 </head>
+
 <body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col items-center justify-center p-4">
-  <header class="w-full mb-8">
-    <div class="ascii-container">
-      <pre class="ascii-art">
+    <header class="w-full mb-8" role="banner">
+        <div class="ascii-container">
+            <pre class="ascii-art" aria-hidden="true">
 ██████╗ ███████╗██████╗ ██╗  ██╗███████╗██████╗ ██████╗ ███╗   ███╗ █████╗ ███╗   ██╗███╗   ██╗
 ██╔══██╗██╔════╝██╔══██╗██║  ██║██╔════╝██╔══██╗██╔══██╗████╗ ████║██╔══██╗████╗  ██║████╗  ██║
 ██║  ██║█████╗  ██████╔╝███████║█████╗  ██████╔╝██████╔╝██╔████╔██║███████║██╔██╗ ██║██╔██╗ ██║
@@ -71,29 +82,34 @@
 ██████╔╝███████╗██║  ██║██║  ██║███████╗██║  ██║██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║██║ ╚████║
 ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝
       </pre>
-    </div>
-  </header>
+        </div>
+    </header>
 
-  <main class="w-full max-w-4xl space-y-8">
-    <section class="card p-6">
-      <h1 class="text-2xl md:text-3xl font-bold text-center mb-4">about/</h1>
-      <p class="text-gray-300 text-center">
-        Oy mate<br> 
-        I am derherrmann (theherrmann), a computer science student, tinkerer, nerd and tech enthusiast from Germany.<br>
-        I dont enjoy Web Development, so what you see here is just a simple landing page made by a GPT.<br>
-        My main interests are data science(ML etc.), algorithms and backend development.<br>
-        Basically I could code in any language except Assembly, but I am used to C, C++ and Python.<br>
-      </p>
-    </section>
+    <main class="w-full max-w-4xl space-y-8" role="main">
+        <section class="card p-6" aria-labelledby="about-heading">
+            <h1 id="about-heading" class="text-2xl md:text-3xl font-bold text-center mb-4">about/</h1>
+            <p class="text-gray-300 text-center">
+                Oy mate<br>
+                I am derherrmann (theherrmann), a computer science student, tinkerer, nerd and tech enthusiast from
+                Germany.<br>
+                I dont enjoy Web Development, so what you see here is just a simple landing page made by a GPT.<br>
+                My main interests are data science(ML etc.), algorithms and backend development.<br>
+                Basically I could code in any language except Assembly, but I am used to C, C++ and Python.<br>
+            </p>
+        </section>
 
-    <section class="card p-6">
-      <h2 class="text-xl md:text-2xl font-semibold text-center mb-4">projects/</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <a href="https://github.com/derherrmann/pxEye" target="_blank" class="btn text-center">pxEye</a>
-        <a href="https://github.com/derherrmann/AIScreener" target="_blank" class="btn text-center">AIScreener</a>
-      </div>
-      <a href="https://github.com/derherrmann" target="_blank" class="btn text-center w-full mt-4 block">General GitHub</a>
-    </section>
-  </main>
+        <section class="card p-6" aria-labelledby="projects-heading">
+            <h2 id="projects-heading" class="text-xl md:text-2xl font-semibold text-center mb-4">projects/</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <a href="https://github.com/derherrmann/pxEye" target="_blank" class="btn text-center"
+                    aria-label="View pxEye project on GitHub">pxEye</a>
+                <a href="https://github.com/derherrmann/AIScreener" target="_blank" class="btn text-center"
+                    aria-label="View AIScreener project on GitHub">AIScreener</a>
+            </div>
+            <a href="https://github.com/derherrmann" target="_blank" class="btn text-center w-full mt-4 block"
+                aria-label="Visit derherrmann's GitHub profile">General GitHub</a>
+        </section>
+    </main>
 </body>
+
 </html>
